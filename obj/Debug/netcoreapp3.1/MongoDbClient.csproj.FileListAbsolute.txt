@@ -7,3 +7,12 @@ C:\Users\andre\source\repos\MongoDbClient\MongoDbClient\bin\Debug\netcoreapp3.1\
 C:\Users\andre\source\repos\MongoDbClient\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.csproj.CoreCompileInputs.cache
 C:\Users\andre\source\repos\MongoDbClient\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.dll
 C:\Users\andre\source\repos\MongoDbClient\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.pdb
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Debug\netcoreapp3.1\MongoDbClient.deps.json
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Debug\netcoreapp3.1\MongoDbClient.dll
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Debug\netcoreapp3.1\MongoDbClient.pdb
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.csprojAssemblyReference.cache
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.AssemblyInfoInputs.cache
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.AssemblyInfo.cs
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.csproj.CoreCompileInputs.cache
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.dll
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Debug\netcoreapp3.1\MongoDbClient.pdb

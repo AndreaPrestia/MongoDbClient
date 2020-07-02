@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using MongoDbClient.Entities;
 using MongoDbClient.Settings;
 using System;
@@ -156,8 +157,8 @@ namespace MongoDbClient.Repository
                 if (string.IsNullOrEmpty(element.Id))
                     throw new ArgumentNullException($"{nameof(element.Id)} is null or empty");
 
-                if (Guid.Parse(element.Id) == Guid.Empty)
-                    throw new ArgumentException($"{nameof(element.Id)} is not a valid GUID");
+                if (ObjectId.Parse(element.Id) == ObjectId.Empty)
+                    throw new ArgumentException($"{nameof(element.Id)} is not a valid ObjectId");
             }
         }
 
@@ -166,7 +167,7 @@ namespace MongoDbClient.Repository
             if (string.IsNullOrEmpty(id))
                 throw new ArgumentNullException($"{nameof(id)} is null or empty");
 
-            if (Guid.Parse(id) == Guid.Empty)
+            if (ObjectId.Parse(id) == ObjectId.Empty)
                 throw new ArgumentException($"{nameof(id)} is not a valid GUID");
         }
     }

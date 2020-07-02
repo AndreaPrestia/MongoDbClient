@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\MongoDbClient\\MongoDbClient\\MongoDbClient.csproj": {}
+    "C:\\Users\\AndreaPrestia\\source\\repos\\MongoDbClient\\MongoDbClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\MongoDbClient\\MongoDbClient\\MongoDbClient.csproj": {
+    "C:\\Users\\AndreaPrestia\\source\\repos\\MongoDbClient\\MongoDbClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\MongoDbClient\\MongoDbClient\\MongoDbClient.csproj",
+        "projectUniqueName": "C:\\Users\\AndreaPrestia\\source\\repos\\MongoDbClient\\MongoDbClient.csproj",
         "projectName": "MongoDbClient",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\MongoDbClient\\MongoDbClient\\MongoDbClient.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\MongoDbClient\\MongoDbClient\\obj\\",
+        "projectPath": "C:\\Users\\AndreaPrestia\\source\\repos\\MongoDbClient\\MongoDbClient.csproj",
+        "packagesPath": "C:\\Users\\AndreaPrestia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AndreaPrestia\\source\\repos\\MongoDbClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\AndreaPrestia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
