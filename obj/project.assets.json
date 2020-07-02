@@ -6538,7 +6538,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\AndreaPrestia\\source\\repos\\MongoDbClient\\MongoDbClient.csproj",
-      "projectName": "MongoDbClient",
+      "projectName": "APrs.MongoDbClient",
       "projectPath": "C:\\Users\\AndreaPrestia\\source\\repos\\MongoDbClient\\MongoDbClient.csproj",
       "packagesPath": "C:\\Users\\AndreaPrestia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\AndreaPrestia\\source\\repos\\MongoDbClient\\obj\\",

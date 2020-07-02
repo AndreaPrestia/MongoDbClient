@@ -11,8 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MongoDbClient")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Andrea Prestia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("2020 Andrea Prestia")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A simple MongoDB client. It implements a GenericRepository<T> and the most common" +
+    " used features in NoSQL data management.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MongoDbClient")]

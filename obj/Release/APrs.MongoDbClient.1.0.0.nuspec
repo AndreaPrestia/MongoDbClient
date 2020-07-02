@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>APrs.MongoDbClient</id>
+    <version>1.0.0</version>
+    <authors>Andrea Prestia</authors>
+    <owners>Andrea Prestia</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/AndreaPrestia/MongoDbClient</projectUrl>
+    <description>A simple MongoDB client. It implements a GenericRepository&lt;T&gt; and the most common used features in NoSQL data management.</description>
+    <releaseNotes>First release. Simple MongoDB client. It contains a GenericRepository&lt;T&gt; for most common NoSQL database operations.</releaseNotes>
+    <copyright>2020 Andrea Prestia</copyright>
+    <tags>MongoDB, NoSQL, .NET Core, WebDevelopment</tags>
+    <repository type="GIT" url="https://github.com/AndreaPrestia/MongoDbClient" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Extensions.Configuration" version="5.0.0-preview.6.20305.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="5.0.0-preview.6.20305.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="5.0.0-preview.6.20305.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="5.0.0-preview.6.20305.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="5.0.0-preview.6.20305.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="5.0.0-preview.6.20305.6" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Bson" version="2.10.4" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.10.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Release\netcoreapp3.1\MongoDbClient.dll" target="lib\netcoreapp3.1\MongoDbClient.dll" />
+    <file src="C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Release\netcoreapp3.1\MongoDbClient.xml" target="lib\netcoreapp3.1\MongoDbClient.xml" />
+  </files>
+</package>

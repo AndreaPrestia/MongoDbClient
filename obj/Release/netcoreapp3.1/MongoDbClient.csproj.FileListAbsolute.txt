@@ -1,0 +1,9 @@
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Release\netcoreapp3.1\MongoDbClient.deps.json
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Release\netcoreapp3.1\MongoDbClient.dll
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Release\netcoreapp3.1\MongoDbClient.pdb
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\bin\Release\netcoreapp3.1\MongoDbClient.xml
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Release\netcoreapp3.1\MongoDbClient.AssemblyInfoInputs.cache
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Release\netcoreapp3.1\MongoDbClient.AssemblyInfo.cs
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Release\netcoreapp3.1\MongoDbClient.csproj.CoreCompileInputs.cache
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Release\netcoreapp3.1\MongoDbClient.dll
+C:\Users\AndreaPrestia\source\repos\MongoDbClient\obj\Release\netcoreapp3.1\MongoDbClient.pdb

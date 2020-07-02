@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MongoDbClient</name>
+    </assembly>
+    <members>
+        <member name="M:MongoDbClient.Configuration.MongoClientConfiguration.GetAzureConfiguration``1">
+            <summary>
+            Get the configuration from local.settings.json (ex. Azure functions environment)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MongoDbClient.Configuration.MongoClientConfiguration.GetConfiguration``1">
+            <summary>
+            Get the configuration from appsettings.json 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MongoDbClient.Configuration.MongoClientConfiguration.GetConfiguration``1(System.String)">
+            <summary>
+            Get configuration from specified json settings file.
+            </summary>
+            <param name="filename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.Get(System.String)">
+            <summary>
+            Get a specific element from mongo collection.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">throws when id is empty or null</exception>
+            <exception cref="T:System.ArgumentException">throws when id is not a valid GUID</exception>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.Create(`0)">
+            <summary>
+            Create an element in mongo collection
+            </summary>
+            <param name="element"></param>
+            <exception cref="T:System.ArgumentNullException">throws when element is null</exception>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.Update(`0)">
+            <summary>
+            Update specific element of mongo collection
+            </summary>
+            <param name="element"></param>
+            <exception cref="T:System.ArgumentNullException">throws when element or element.Id is null or empty</exception>
+            <exception cref="T:System.ArgumentException">throws when element.Id is not a valid GUID</exception>
+            <exception cref="T:MongoDB.Driver.MongoClientException">throws when IsAcknowledged is false</exception>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.Remove(System.String)">
+            <summary>
+            Delete an element from mongo collection
+            </summary>
+            <param name="id"></param>
+            <exception cref="T:System.ArgumentNullException">throws when id is empty or null</exception>
+            <exception cref="T:System.ArgumentException">throws when id is not a valid GUID</exception>
+            <exception cref="T:MongoDB.Driver.MongoClientException">throws when IsAcknowledged is false</exception>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.Query">
+            <summary>
+            Returns all elements from query.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Finds an returns elements with specified expression
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.CreateAsync(`0)">
+            <summary>
+            Create an element in your mongo collection
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">throws when element is null</exception>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.UpdateAsync(`0)">
+            <summary>
+            Update an element in your mongo collection
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">throws when element or element.Id is null or empty</exception>
+            <exception cref="T:System.ArgumentException">throws when element.Id is not a valid GUID</exception>
+            <exception cref="T:MongoDB.Driver.MongoClientException">throws when IsAcknowledged is false</exception>
+        </member>
+        <member name="M:MongoDbClient.Repository.MongoRepository`1.RemoveAsync(System.String)">
+            <summary>
+            Remove an element from mongo collection
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">throws when element or id is null or empty</exception>
+            <exception cref="T:System.ArgumentException">throws when id is not a valid GUID</exception>
+            <exception cref="T:MongoDB.Driver.MongoClientException">throws when IsAcknowledged is false</exception>
+        </member>
+        <member name="T:MongoDbClient.Settings.IMongoSettings">
+            <summary>
+            This interface is the basic configuration interface.
+            It contains mongodb connection string, database name and container name
+            </summary>
+        </member>
+        <member name="P:MongoDbClient.Settings.IMongoSettings.ConnectionString">
+            <summary>
+            This is the connection string to your mongo db instance
+            </summary>
+        </member>
+        <member name="P:MongoDbClient.Settings.IMongoSettings.DatabaseName">
+            <summary>
+            This is the database instance that you want to bind
+            </summary>
+        </member>
+        <member name="P:MongoDbClient.Settings.IMongoSettings.ContainerName">
+            <summary>
+            This is the container in your database that you want to bind
+            </summary>
+        </member>
+    </members>
+</doc>

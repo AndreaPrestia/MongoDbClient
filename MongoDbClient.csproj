@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>First release. Simple MongoDB client. It contains a GenericRepository&lt;T&gt; for most common NoSQL database operations.</PackageReleaseNotes>
+    <Copyright>2020 Andrea Prestia</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/AndreaPrestia/MongoDbClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AndreaPrestia/MongoDbClient</RepositoryUrl>
+    <PackageTags>MongoDB, NoSQL, .NET Core, WebDevelopment</PackageTags>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageId>APrs.MongoDbClient</PackageId>
+    <Authors>Andrea Prestia</Authors>
+    <Description>A simple MongoDB client. It implements a GenericRepository&lt;T&gt; and the most common used features in NoSQL data management.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\AndreaPrestia\source\repos\MongoDbClient\MongoDbClient.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
