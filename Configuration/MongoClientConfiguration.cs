@@ -5,6 +5,9 @@ using System.IO;
 
 namespace MongoDbClient.Configuration
 {
+    /// <summary>
+    /// Static class used to retrieve configuration
+    /// </summary>
     public static class MongoClientConfiguration
     {
         /// <summary>

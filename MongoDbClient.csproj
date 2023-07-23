@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes>First release. Simple MongoDB client. It contains a GenericRepository&lt;T&gt; for most common NoSQL database operations.</PackageReleaseNotes>
     <Copyright>2020 Andrea Prestia</Copyright>
@@ -20,14 +20,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0-preview.6.20305.6" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0-preview.6.20305.6" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0-preview.6.20305.6" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="5.0.0-preview.6.20305.6" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0-preview.6.20305.6" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0-preview.6.20305.6" />
-    <PackageReference Include="MongoDB.Bson" Version="2.10.4" />
-    <PackageReference Include="MongoDB.Driver" Version="2.10.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0-preview.6.23329.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0-preview.6.23329.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0-preview.6.23329.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0-preview.6.23329.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.0-preview.6.23329.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0-preview.6.23329.7" />
+    <PackageReference Include="MongoDB.Bson" Version="2.20.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.20.0" />
   </ItemGroup>
 
 </Project>

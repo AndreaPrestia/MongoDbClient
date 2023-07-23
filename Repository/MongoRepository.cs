@@ -9,19 +9,23 @@ using System.Threading.Tasks;
 
 namespace MongoDbClient.Repository
 {
+    /// <summary>
+    /// Instance of mongo repository that is used to access to data
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class MongoRepository<T> where T : MongoEntity
     {
         private readonly IMongoCollection<T> _mongoCollection;
 
-        private MongoClient _client;
-
-        private IMongoDatabase _database;
-
+        /// <summary>
+        /// Public constructor taking the settings from appsettings.json
+        /// </summary>
+        /// <param name="databaseSettings"></param>
         public MongoRepository(IMongoSettings databaseSettings)
         {
-            _client = new MongoClient(databaseSettings.ConnectionString);
-            _database = _client.GetDatabase(databaseSettings.DatabaseName);
-            _mongoCollection = _database.GetCollection<T>(databaseSettings.ContainerName);
+            var client = new MongoClient(databaseSettings.ConnectionString);
+            var database = client.GetDatabase(databaseSettings.DatabaseName);
+            _mongoCollection = database.GetCollection<T>(databaseSettings.ContainerName);
         }
 
         /// <summary>
